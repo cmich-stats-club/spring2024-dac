@@ -6,30 +6,30 @@
 
 Dimension: 1615 rows*7 columns
 Following data pre-processing steps may be performed:
-a.	Check for duplicates
-b.	Check for missing values
-c.	Check for outliers
+  a.	Check for duplicates
+  b.	Check for missing values
+  c.	Check for outliers
 Treatment of those that are flagged in the pre-processing steps.
 Following analysis may be of interest:
-a.	Counts of the number of unique regions
-b.	Group by the “Year” variable to calculate aggregate consumption for each alcohol type
-c.	Study consumption trend(s) over the years. Trend test.
-d.	Get aggregate consumption for specific region(s)
-e.	Testing hypothesis: For example, average consumption of two alcohol type is significantly different (two-tailed) or one is significantly higher than the other (one-tailed)
-f.	Predict consumption for next years in the series (time series prediction and others)
+  a.	Counts of the number of unique regions
+  b.	Group by the “Year” variable to calculate aggregate consumption for each alcohol type
+  c.	Study consumption trend(s) over the years. Trend test.
+  d.	Get aggregate consumption for specific region(s)
+  e.	Testing hypothesis: For example, average consumption of two alcohol type is significantly different (two-tailed) or one is significantly higher than the other (one-tailed)
+  f.	Predict consumption for next years in the series (time series prediction and others)
 
 
 ## Dataset 2: Belgium Train Times
 Dimension: 72609 rows*18 columns
 Following data pre-processing steps may be performed:
-a.	Check for duplicates
-b.	Check for missing values
-c.	Check for outliers
+  a.	Check for duplicates
+  b.	Check for missing values
+  c.	Check for outliers
 Treatment of those that are flagged in the pre-processing steps.
 Following analysis may be of interest:
-a.	Counts of the unique train number
-b.	Statistics describing delay at arrival and at departure. For the entire data and then for unique train number
-c.	Testing hypothesis: For example, 
+  a.	Counts of the unique train number
+  b.	Statistics describing delay at arrival and at departure. For the entire data and then for unique train number
+  c.	Testing hypothesis: For example, 
 
 ## Dataset 3: Blood Donation
 Dimension: 576 rows*6 columns
