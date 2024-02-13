@@ -1,22 +1,22 @@
 # Spring 2024 Data Analysis Challenge (DAC)
- Repo for the CMICH Stats Club's maiden edition edition of the Data Analysis Challenge (DAC)
+Repo for the CMICH Stats Club's maiden edition edition of the Data Analysis Challenge (DAC)
 
 # Data
 ## Dataset 1: Alcohol Consumption in Russia
 
-Dimension: 1615 rows*7 columns
-Following data pre-processing steps may be performed:
-  a.	Check for duplicates
-  b.	Check for missing values
-  c.	Check for outliers
-Treatment of those that are flagged in the pre-processing steps.
-Following analysis may be of interest:
-  a.	Counts of the number of unique regions
-  b.	Group by the “Year” variable to calculate aggregate consumption for each alcohol type
-  c.	Study consumption trend(s) over the years. Trend test.
-  d.	Get aggregate consumption for specific region(s)
-  e.	Testing hypothesis: For example, average consumption of two alcohol type is significantly different (two-tailed) or one is significantly higher than the other (one-tailed)
-  f.	Predict consumption for next years in the series (time series prediction and others)
+Dimension: 1615 rows*7 columns  
+The following data pre-processing steps may be performed:  
+  *	Check for duplicates
+  *	Check for missing values
+  *	Check for outliers  
+Treat records and attributes that are flagged in the pre-processing steps.   
+The following analysis may be of interest:  
+  *	Counts of the number of unique regions
+  *	Group by the “Year” variable to calculate aggregate consumption for each alcohol type
+  *	Study consumption trend(s) over the years. Trend test.
+  *	Get aggregate consumption for specific region(s)
+  *	Testing hypothesis: For example, average consumption of two alcohol type is significantly different (two-tailed) or one is significantly higher than the other (one-tailed)
+  *	Predict consumption for next years in the series (time series prediction and others)
 
 
 ## Dataset 2: Belgium Train Times
