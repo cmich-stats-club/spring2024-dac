@@ -2,14 +2,15 @@
 Repo for the CMICH Stats Club's maiden edition edition of the Data Analysis Challenge (DAC)
 
 # Data
-## Dataset 1: Alcohol Consumption in Russia
-
+## Dataset 1: [Alcohol Consumption in Russia](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/alcohol-consumption-in-russia.csv)
 Dimension: 1615 rows*7 columns  
 The following data pre-processing steps may be performed:  
   *	Check for duplicates
   *	Check for missing values
   *	Check for outliers  
+
 Treat records and attributes that are flagged in the pre-processing steps.   
+
 The following analysis may be of interest:  
   *	Counts of the number of unique regions
   *	Group by the “Year” variable to calculate aggregate consumption for each alcohol type
@@ -17,73 +18,96 @@ The following analysis may be of interest:
   *	Get aggregate consumption for specific region(s)
   *	Testing hypothesis: For example, average consumption of two alcohol type is significantly different (two-tailed) or one is significantly higher than the other (one-tailed)
   *	Predict consumption for next years in the series (time series prediction and others)
+[Source][dataset 1]
+[dataset 1]: 
 
 
-## Dataset 2: Belgium Train Times
-Dimension: 72609 rows*18 columns
-Following data pre-processing steps may be performed:
-  a.	Check for duplicates
-  b.	Check for missing values
-  c.	Check for outliers
-Treatment of those that are flagged in the pre-processing steps.
-Following analysis may be of interest:
-  a.	Counts of the unique train number
-  b.	Statistics describing delay at arrival and at departure. For the entire data and then for unique train number
-  c.	Testing hypothesis: For example, 
 
-## Dataset 3: Blood Donation
-Dimension: 576 rows*6 columns
-Following data pre-processing steps may be performed:
-a.	Check for duplicates
-b.	Check for missing values
-c.	Check for outliers
-Treatment of those that are flagged in the pre-processing steps.
-Following analysis may be of interest:
-a.	Distribution of the number of donations: summary statistics and graphs
-b.	Distribution of the total volume donated: summary statistics and graphs
-c.	Testing hypothesis: For example, on an average, people who made donations in March have donated more often than those who did not make donations in March, historically
+## Dataset 2: [Belgium Train Times](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/belgium-train-times.csv)  
+Dimension: 72609 rows*18 columns  
+The following data pre-processing steps may be performed:  
+  *	Check for duplicates
+  *	Check for missing values
+  *	Check for outliers
+
+Treat records and attributes that are flagged in the pre-processing steps.  
+
+The following analysis may be of interest:  
+  *	Counts of the unique train number
+  *	Statistics describing delay at arrival and at departure. For the entire data and then for unique train number
+  *	Testing hypothesis: For example, 
+[Source][dataset 2]
+[dataset 2]: 
 
 
-## Dataset 4: College Basketball (NCAA)
-Dimension: 2455 rows*24 columns
-Following data pre-processing steps may be performed:
-a.	Check for duplicates
-b.	Check for missing values
-c.	Check for outliers/irregular entries
-Treatment of those that are flagged in the pre-processing steps.
-Following analysis may be of interest:
-a.	Count of NCAA competition participation by each team during the period
-b.	Count of NCAA competition representation by each conference during the period
-c.	Distribution of the number of teams by conference for each year: summary statistics and graphs
+## Dataset 3: [Blood Donation](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/blood.csv)
+Dimension: 576 rows*6 columns  
+The following data pre-processing steps may be performed:  
+  *	Check for duplicates
+  *	Check for missing values
+  *	Check for outliers
+
+Treatment of those that are flagged in the pre-processing steps.  
+
+The following analysis may be of interest:
+  *	Distribution of the number of donations: summary statistics and graphs
+  *	Distribution of the total volume donated: summary statistics and graphs
+  *	Testing hypothesis: For example, on an average, people who made donations in March have donated more often than those who did not make donations in March, historically
+[Source][dataset 3]
+[dataset 3]: 
 
 
-## Dataset 5: Medical Cost
+## Dataset 4: [College Basketball (NCAA)](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/cbb.csv)
+Dimension: 2455 rows*24 columns  
+The following data pre-processing steps may be performed:
+  *	Check for duplicates
+  *	Check for missing values
+  *	Check for outliers/irregular entries
+
+Treat records and attributes that are flagged in the pre-processing steps.
+
+The following analysis may be of interest:
+  *	Count of NCAA competition participation by each team during the period
+  *	Count of NCAA competition representation by each conference during the period
+  *	Distribution of the number of teams by conference for each year: summary statistics and graphs
+[Source][dataset 4]
+[dataset 4]: 
+
+
+## Dataset 5: [Medical Cost](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/medical-cost.csv)
 Dimension: 1338 rows*7 columns
-Following data pre-processing steps may be performed:
-a.	Check for duplicates
-b.	Check for missing values
-c.	Check for outliers/irregular entries
-Treatment of those that are flagged in the pre-processing steps.
-Following analysis may be of interest:
-a.	Distribution of insurance subscribers’ age and bmi : summary statistics and graphs
-b.	Distribution of medical cost billed by the insurance company: summary statistics and graph
-c.	Testing hypothesis: For example, on average, medical cost is different for subscribers in South-East and South-West regions.
-d.	ANOVA: Is there a difference in the average medical cost charged to insurance subscribers in the four regions?
+The following data pre-processing steps may be performed:
+  *	Check for duplicates
+  *	Check for missing values
+  *	Check for outliers/irregular entries
+
+Treat records and attributes that are flagged in the pre-processing steps.  
+
+The following analysis may be of interest:
+  *	Distribution of insurance subscribers’ age and bmi : summary statistics and graphs
+  *	Distribution of medical cost billed by the insurance company: summary statistics and graph
+  *	Testing hypothesis: For example, on average, medical cost is different for subscribers in South-East and South-West regions.
+  *	ANOVA: Is there a difference in the average medical cost charged to insurance subscribers in the four regions?
+[Source][dataset 5]
+[dataset 5]: 
 
 
-
-## Dataset 6: Record Management System (RMS) Crime Incidents for Detroit
+## Dataset 6: [Record Management System (RMS) Crime Incidents for Detroit](https://drive.google.com/file/d/1zKBt4FNiXNVlXRM-YqwdFhhZhpgaD2q1/view?usp=sharing)
 Dimension: 508629 rows*25 columns
-Following data pre-processing steps may be performed:
-a.	Check for duplicates
-b.	Check for missing values
-c.	Check for outliers/irregular entries
-Treatment of those that are flagged in the pre-processing steps.
-Following analysis may be of interest:
-a.	Count the number of unique offense categories
-b.	Distribution of crime incident counts by year, month, week, day, time of day: summary statistics and time series graphs
-c.	Distribution of crime incidents by neighborhood, Zip code: summary statistics and graphs (Bar charts, Geo-maps)
-d.	Study crime incident trend(s) over the years. Trend test.
-e.	Testing hypothesis: For example, on average, more crime incidents are recorded in the first half of a year than in the second half.
-f.	Predict crime incidents for the next years in the series (time series prediction and others)
+The following data pre-processing steps may be performed:
+  *	Check for duplicates
+  *	Check for missing values
+  *	Check for outliers/irregular entries
+
+Treat records and attributes that are flagged in the pre-processing steps.
+
+The following analysis may be of interest:
+  *	Count the number of unique offense categories
+  *	Distribution of crime incident counts by year, month, week, day, time of day: summary statistics and time series graphs
+  *	Distribution of crime incidents by neighborhood, Zip code: summary statistics and graphs (Bar charts, Geo-maps)
+  *	Study crime incident trend(s) over the years. Trend test.
+  *	Testing hypothesis: For example, on average, more crime incidents are recorded in the first half of a year than in the second half.
+  *	Predict crime incidents for the next years in the series (time series prediction and others)  
+[Source][dataset 6]
+[dataset 6]: 
 
