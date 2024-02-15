@@ -18,8 +18,8 @@ The following analysis may be of interest:
   *	Get aggregate consumption for specific region(s)
   *	Testing hypothesis: For example, average consumption of two alcohol type is significantly different (two-tailed) or one is significantly higher than the other (one-tailed)
   *	Predict consumption for next years in the series (time series prediction and others)
-[Source][dataset 1]
-[dataset 1]: 
+[Source][dataset 1]  
+[dataset 1]: https://github.com/datacamp/careerhub-data/tree/master/Alcohol%20Consumption%20in%20Russia
 
 
 
@@ -36,8 +36,8 @@ The following analysis may be of interest:
   *	Counts of the unique train number
   *	Statistics describing delay at arrival and at departure. For the entire data and then for unique train number
   *	Testing hypothesis: For example, 
-[Source][dataset 2]
-[dataset 2]: 
+[Source][dataset 2]  
+[dataset 2]: https://github.com/datacamp/careerhub-data/tree/master/Belgium%20Train%20Times
 
 
 ## Dataset 3: [Blood Donation](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/blood.csv)
@@ -53,8 +53,8 @@ The following analysis may be of interest:
   *	Distribution of the number of donations: summary statistics and graphs
   *	Distribution of the total volume donated: summary statistics and graphs
   *	Testing hypothesis: For example, on an average, people who made donations in March have donated more often than those who did not make donations in March, historically
-[Source][dataset 3]
-[dataset 3]: 
+[Source][dataset 3]  
+[dataset 3]: https://www.kaggle.com/datasets/bonastreyair/predicting-blood-analysis/data?select=blood-train.csv
 
 
 ## Dataset 4: [College Basketball (NCAA)](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/cbb.csv)
@@ -70,8 +70,8 @@ The following analysis may be of interest:
   *	Count of NCAA competition participation by each team during the period
   *	Count of NCAA competition representation by each conference during the period
   *	Distribution of the number of teams by conference for each year: summary statistics and graphs
-[Source][dataset 4]
-[dataset 4]: 
+[Source][dataset 4]  
+[dataset 4]: https://www.kaggle.com/datasets/andrewsundberg/college-basketball-dataset
 
 
 ## Dataset 5: [Medical Cost](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/medical-cost.csv)
@@ -89,7 +89,7 @@ The following analysis may be of interest:
   *	Testing hypothesis: For example, on average, medical cost is different for subscribers in South-East and South-West regions.
   *	ANOVA: Is there a difference in the average medical cost charged to insurance subscribers in the four regions?
 [Source][dataset 5]
-[dataset 5]: 
+[dataset 5]: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 
 ## Dataset 6: [Record Management System (RMS) Crime Incidents for Detroit](https://drive.google.com/file/d/1zKBt4FNiXNVlXRM-YqwdFhhZhpgaD2q1/view?usp=sharing)
@@ -109,5 +109,5 @@ The following analysis may be of interest:
   *	Testing hypothesis: For example, on average, more crime incidents are recorded in the first half of a year than in the second half.
   *	Predict crime incidents for the next years in the series (time series prediction and others)  
 [Source][dataset 6]
-[dataset 6]: 
+[dataset 6]: https://data.detroitmi.gov/datasets/detroitmi::rms-crime-incidents/about
 
