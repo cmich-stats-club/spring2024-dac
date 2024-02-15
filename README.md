@@ -4,6 +4,9 @@ Repo for the CMICH Stats Club's maiden edition edition of the Data Analysis Chal
 # Data
 ## Dataset 1: [Alcohol Consumption in Russia](https://github.com/cmich-stats-club/spring2024-dac/blob/main/datasets/alcohol-consumption-in-russia.csv)
 Dimension: 1615 rows*7 columns  
+
+Check this [source](https://github.com/datacamp/careerhub-data/tree/master/Alcohol%20Consumption%20in%20Russia)  for more information about the data.  
+
 The following data pre-processing steps may be performed:  
   *	Check for duplicates
   *	Check for missing values
@@ -18,7 +21,7 @@ The following analysis may be of interest:
   *	Get aggregate consumption for specific region(s)
   *	Testing hypothesis: For example, average consumption of two alcohol type is significantly different (two-tailed) or one is significantly higher than the other (one-tailed)
   *	Predict consumption for next years in the series (time series prediction and others)  
-[Source](https://github.com/datacamp/careerhub-data/tree/master/Alcohol%20Consumption%20in%20Russia) 
+
 
 
 
