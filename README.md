@@ -128,4 +128,4 @@ The following analysis may be of interest:
 
 
 # Demo
-[![Read dataset into Google Colab and start exploration](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmich-stats-club/spring2024-dac/blob/main/demo/DAC_Demo_Notebook.ipynb)
+Read dataset into Google Colab and start exploration [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmich-stats-club/spring2024-dac/blob/main/demo/DAC_Demo_Notebook.ipynb)
