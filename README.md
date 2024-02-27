@@ -129,4 +129,4 @@ The following analysis may be of interest:
 
 # Demo
   1. Read dataset into Google Colab and start exploration [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmich-stats-club/spring2024-dac/blob/main/demo/DAC_Demo_Notebook.ipynb)
-  2. Read dataset into Rmarkdown and start exploration: [Rmd file]() | [rpub doc](https://rpubs.com/emmartey/dac_spring24_Rmarkdown_demo)
+  2. Read dataset into Rmarkdown and start exploration: [Rmd file](https://github.com/cmich-stats-club/spring2024-dac/blob/main/demo/DAC_Demo_Rmarkdown.Rmd) | [rpub doc](https://rpubs.com/emmartey/dac_spring24_Rmarkdown_demo)
