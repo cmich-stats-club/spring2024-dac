@@ -1,0 +1,116 @@
+---
+title: "DAC Demo - Rmarkdown"
+author: "Emmanuel Nartey"
+date: "2024-02-27"
+output:
+  html_document:
+    toc: yes
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
+---
+
+# Data Analysis Challenge (DAC) - Spring 2024
+In this Rmarkdown file, we will demonstrate how to read in datasets directly from Github and follow that with some explorations.
+
+# Import Libraries
+These are some packages you could consider using for your analysis based on what you plan to do.
+
+    tidyverse - collection of packages for diverse tasks which include data manipulation (dplyr), reading and writing data (readr), and creating static data visualizations (ggplots).
+    Plotly - for intereactive data visualization
+    stats - for statistical analysis
+    
+
+
+```{r}
+#Install the packages first before import.
+
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(plotly))
+suppressPackageStartupMessages(library(stats))
+suppressPackageStartupMessages(library(knitr))
+```
+
+
+
+# Data Exploration
+```{r}
+df <- read_csv("https://raw.githubusercontent.com/cmich-stats-club/spring2024-dac/main/datasets/cbb.csv", show_col_types = FALSE)
+```
+
+
+```{r}
+str(df)
+```
+
+There are 2,455 records across 24 columns in the dataset.   
+
+```{r}
+summary(df)
+```
+
+From the YEAR summaries, we see that this data is the seasons 2013 through 2019.
+
+
+```{r}
+#Get the number of missing values for each variable
+sapply(df, function(x) sum(is.na(x)))
+```
+
+The only columns with missing records are POSTSEASON and SEED. Are these missing on purpose or it is a data anomaly?  
+
+```{r}
+#Print out first 6 records
+df %>%
+  head(.) %>%
+  kable(.)
+```
+
+
+
+```{r}
+length(unique(df$TEAM)); length(unique(df$CONF))
+```
+
+There are 355 teams (schools) spanning 35 conferences.  
+
+## NCAA Post-Season
+```{r}
+#I want to focus on only the teams that made it to the post season
+df_post_season <- df %>%
+  filter(!is.na(POSTSEASON))
+```
+
+
+```{r}
+#Number of records in the post season subset table
+dim(df_post_season)
+```
+
+
+
+```{r}
+#Which conferences had the most representation post season 2013-2019
+df_post_season %>%
+  count(CONF) %>%
+  arrange(desc(n))  %>%
+  kable(.)
+```
+
+
+The ACC is the most represented conference, followed by the Big 10 (B10).  
+CMU is in the MAC. This conference has one representative per season. Who are these MAC representatives in the March Madness?  
+
+
+```{r}
+df_post_season %>%
+  filter(CONF == "MAC") %>%
+  arrange(desc(YEAR)) %>%
+  kable(.)
+```
+
+
+Buffalo is the most dominant team in the MAC, 4 March Madness appearances in 7 years. CMU need to improve their odds of making it to the NCAA tournament.  
+Unfortunately, the farthest the MAC teams have gone is the Round of 32.
+
